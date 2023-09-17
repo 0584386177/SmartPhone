@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="tech.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css "
+    />
+    <title>SMARTPHONE ĐÀ NẴNG</title>
+  </head>
+  <body>
+    <!-- Container -->
+
+    <div class="container">
+      <!-- HEADER -->
+      <div class="header-placehoder">
+        <header>
+          <!-- MENU -->
+          <div class="ic-bars">
+            <i id="icon-toggle" class="fa-solid fa-bars"></i>
+          </div>
+          <ul class="menu">
+            <li class="list-items">
+              <a class="item" href="#"
+                >IPHONE
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+              <a class="item" href="#"
+                >SAMSUNG
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+              <a class="item" href="#"
+                >OPPO <i class="fa-solid fa-arrow-right"></i
+              ></a>
+              <a class="item" href="#">TUYỂN DỤNG </a>
+              <a class="item" href="#">KHUYẾN MÃI</a>
+              <a class="item" href="#">TIN TỨC</a>
+            </li>
+          </ul>
+
+          <!-- LOGO -->
+          <div class="logo">
+            <span class="slogan">H<strong id="tech">tech</strong></span>
+          </div>
+
+          <!-- Search -->
+          <form class="form-search" action="">
+            <input class="search" type="text" placeholder="Search..." />
+            <input class="submit" type="submit" value="Search" />
+          </form>
+
+          <div class="header-feature">
+            <!-- Cart -->
+            <div class="cart">
+              <i class="fa-solid fa-cart-shopping"></i>
+              <div class="number-cart">0</div>
+            </div>
+            <!-- Login -->
+            <div class="account">
+              <i class="fa-solid fa-user"></i>
+              <i class="fa-solid fa-right-from-bracket hidden-account"></i>
+            </div>
+          </div>
+        </header>
+      </div>
+
+      <!-- Navigation -->
+      <div class="nav">
+        <ul class="menu-nav">
+          <li class="items-nav">
+            <a href="#" class="item-nav">IPHONE</a>
+            <a href="#" class="item-nav">SAMSUNG</a>
+            <a href="#" class="item-nav">OPPO</a>
+            <a href="#" class="item-nav">TAI NGHE</a>
+            <a href="#" class="item-nav">PHỤ KIỆN</a>
+            <a href="#" class="item-nav">TƯ VẤN</a>
+          </li>
+        </ul>
+      </div>
+      <!-- Slide Image -->
+      <div class="slide">
+        <div class="slide-primary">
+          <!-- image -->
+          <div class="image">
+            <img
+              src="https://didonghd.com/wp-content/uploads/2021/01/MPOS1200x400.jpg"
+              alt=""
+              id="image-item"
+            />
+            <img src="" alt="" id="image-item" />
+            <img src="" alt="" id="image-item" />
+            <img src="" alt="" id="image-item" />
+          </div>
+          <!-- button -->
+          <div class="buttons-image">
+            <button onclick="previous()" id="btn-prev">
+              <i class="fa-solid fa-arrow-left previous"></i>
+            </button>
+            <button onclick="next()" id="btn-next">
+              <i class="fa-solid fa-arrow-right next"></i>
+            </button>
+          </div>
+          <!-- dots -->
+          <ul class="dots">
+            <li class="dot-item active"></li>
+            <li class="dot-item"></li>
+            <li class="dot-item"></li>
+            <li class="dot-item"></li>
+          </ul>
+        </div>
+      </div>
+      <!-- Service -->
+      <div class="service">
+        <div class="service-item">
+          <i class="fa-solid fa-earth-americas"></i>
+          <span class="title">FREESHIP TOÀN QUỐC</span>
+          <p class="text">Miễn phí ship đà nẵng</p>
+        </div>
+        <div class="service-item">
+          <i class="fa-solid fa-money-bill-transfer"></i>
+          <span class="title">30 NGÀY ĐỔI TRẢ</span>
+          <p class="text">1 đổi 1 trong vòng 2 tháng</p>
+        </div>
+        <div class="service-item">
+          <i class="fa-brands fa-cc-visa"></i>
+          <span class="title">THANH TOÁN VISA</span>
+          <p class="text">Thanh toán khi nhận hàng</p>
+        </div>
+        <div class="service-item">
+          <i class="fa-regular fa-clock"></i>
+          <span class="title">Hổ trợ 24/24</span>
+          <p class="text">Hotline : 0584386177</p>
+        </div>
+      </div>
+
+      <!-- Products -->
+      <div class="card-wrapper">
+        <div class="card">
+          <div class="card-sale">
+            <span>Giảm 30%</span>
+          </div>
+          <div class="card-image">
+            <img
+              src="https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/g/a/galaxys23ultra_front_green_221122_2.jpg"
+              alt=""
+            />
+          </div>
+
+          <section class="card-footer">
+            <h3 class="card-title">Samsung Galaxy S23 Ultra 256GB</h3>
+            <p class="card-newPrice">25.990.000 đ</p>
+            <p class="card-oldPrice">20.200.000 đ</p>
+            <button class="card-infor">256GB</button>
+            <div class="card-desc">
+              <p>
+                Giá chỉ còn 13.500.000đ khi trả góp qua samsung Finance+(40 suất
+                đầu tiên) quyền mua của
+              </p>
+            </div>
+            <button class="card-cartBtn">ADD CART</button>
+          </section>
+        </div>
+        <div class="card">
+          <div class="card-sale">
+            <span>Giảm 30%</span>
+          </div>
+          <div class="card-image">
+            <img
+              src="https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/t/_/t_m_18.png"
+              alt=""
+            />
+          </div>
+
+          <section class="card-footer">
+            <h3 class="card-title">Iphone 14 Promax (8/128GB)</h3>
+            <p class="card-newPrice">13.500.000 đ</p>
+            <p class="card-oldPrice">20.200.000 đ</p>
+            <button class="card-infor">256GB</button>
+            <div class="card-desc">
+              <p>
+                Giá chỉ còn 13.500.000đ khi trả góp qua samsung Finance+(40 suất
+                đầu tiên) quyền mua của
+              </p>
+            </div>
+            <button class="card-cartBtn">ADD CART</button>
+          </section>
+        </div>
+        <div class="card">
+          <div class="card-sale">
+            <span>Giảm 30%</span>
+          </div>
+          <div class="card-image">
+            <img
+              src="https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/_/7/_76666_7__3.jpg"
+              alt=""
+            />
+          </div>
+
+          <section class="card-footer">
+            <h3 class="card-title">Xiaomi Redmi Note 12 8GB 128GB</h3>
+            <p class="card-newPrice">4.690.000 đ</p>
+            <p class="card-oldPrice">10.000.000 đ</p>
+            <button class="card-infor">256GB</button>
+            <div class="card-desc">
+              <p>
+                Giá chỉ còn 13.500.000đ khi trả góp qua samsung Finance+(40 suất
+                đầu tiên) quyền mua của
+              </p>
+            </div>
+            <button class="card-cartBtn">ADD CART</button>
+          </section>
+        </div>
+        <div class="card">
+          <div class="card-sale">
+            <span>Giảm 30%</span>
+          </div>
+          <div class="card-image">
+            <img
+              src="https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/1/_/1_252.jpg"
+              alt=""
+            />
+          </div>
+
+          <section class="card-footer">
+            <h3 class="card-title">iPhone 12 64GB | Chính hãng VN/A</h3>
+            <p class="card-newPrice">13.500.000 đ</p>
+            <p class="card-oldPrice">20.200.000 đ</p>
+            <button class="card-infor">256GB</button>
+            <div class="card-desc">
+              <p>
+                Giá chỉ còn 13.500.000đ khi trả góp qua samsung Finance+(40 suất
+                đầu tiên) quyền mua của
+              </p>
+            </div>
+            <button class="card-cartBtn">ADD CART</button>
+          </section>
+        </div>
+        <div class="card">
+          <div class="card-sale">
+            <span>Giảm 30%</span>
+          </div>
+          <div class="card-image">
+            <img
+              src="https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/d/4/d4a672c5-4709-4056-9f7f-72d6d70c2c1d_1.jpg"
+              alt=""
+            />
+          </div>
+
+          <section class="card-footer">
+            <h3 class="card-title">Samsung Galaxy Z Flip5 512GB</h3>
+            <p class="card-newPrice">13.500.000 đ</p>
+            <p class="card-oldPrice">20.200.000 đ</p>
+            <button class="card-infor">256GB</button>
+            <div class="card-desc">
+              <p>
+                Giá chỉ còn 13.500.000đ khi trả góp qua samsung Finance+(40 suất
+                đầu tiên) quyền mua của
+              </p>
+            </div>
+            <button class="card-cartBtn">ADD CART</button>
+          </section>
+        </div>
+        <div class="card">
+          <div class="card-sale">
+            <span>Giảm 30%</span>
+          </div>
+          <div class="card-image">
+            <img
+              src="https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/1/_/1_365.jpg"
+              alt=""
+            />
+          </div>
+
+          <section class="card-footer">
+            <h3 class="card-title">ASUS ROG Phone 7 Ultimate 16GB 512GB</h3>
+            <p class="card-newPrice">13.500.000 đ</p>
+            <p class="card-oldPrice">20.200.000 đ</p>
+            <button class="card-infor">256GB</button>
+            <div class="card-desc">
+              <p>
+                Giá chỉ còn 13.500.000đ khi trả góp qua samsung Finance+(40 suất
+                đầu tiên) quyền mua của
+              </p>
+            </div>
+            <button class="card-cartBtn">ADD CART</button>
+          </section>
+        </div>
+        <div class="card">
+          <div class="card-sale">
+            <span>Giảm 30%</span>
+          </div>
+          <div class="card-image">
+            <img
+              src="https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/1/_/1_66_6_2_1_12.jpg"
+              alt=""
+            />
+          </div>
+
+          <section class="card-footer">
+            <h3 class="card-title">
+              iPhone 13 Pro Max 256GB | Chính hãng VN/A
+            </h3>
+            <p class="card-newPrice">13.500.000 đ</p>
+            <p class="card-oldPrice">20.200.000 đ</p>
+            <button class="card-infor">256GB</button>
+            <div class="card-desc">
+              <p>
+                Giá chỉ còn 13.500.000đ khi trả góp qua samsung Finance+(40 suất
+                đầu tiên) quyền mua của
+              </p>
+            </div>
+            <button class="card-cartBtn">ADD CART</button>
+          </section>
+        </div>
+        <div class="card">
+          <div class="card-sale">
+            <span>Giảm 30%</span>
+          </div>
+          <div class="card-image">
+            <img
+              src="https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/t/e/tecno-pova-5_2_.png"
+              alt=""
+            />
+          </div>
+
+          <section class="card-footer">
+            <h3 class="card-title">TECNO POVA 5 8GB 128GB</h3>
+            <p class="card-newPrice">13.500.000 đ</p>
+            <p class="card-oldPrice">20.200.000 đ</p>
+            <button class="card-infor">256GB</button>
+            <div class="card-desc">
+              <p>
+                Giá chỉ còn 13.500.000đ khi trả góp qua samsung Finance+(40 suất
+                đầu tiên) quyền mua của
+              </p>
+            </div>
+            <button class="card-cartBtn">ADD CART</button>
+          </section>
+        </div>
+        <div class="card">
+          <div class="card-sale">
+            <span>Giảm 30%</span>
+          </div>
+          <div class="card-image">
+            <img
+              src="https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/n/2/n2_flip_-_combo_product_-_black.png"
+              alt=""
+            />
+          </div>
+
+          <section class="card-footer">
+            <h3 class="card-title">OPPO Find N2 Flip</h3>
+            <p class="card-newPrice">13.500.000 đ</p>
+            <p class="card-oldPrice">20.200.000 đ</p>
+            <button class="card-infor">256GB</button>
+            <div class="card-desc">
+              <p>
+                Giá chỉ còn 13.500.000đ khi trả góp qua samsung Finance+(40 suất
+                đầu tiên) quyền mua của
+              </p>
+            </div>
+            <button class="card-cartBtn">ADD CART</button>
+          </section>
+        </div>
+        <div class="card">
+          <div class="card-sale">
+            <span>Giảm 30%</span>
+          </div>
+          <div class="card-image">
+            <img
+              src="https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/d/7/d78000_6__2.jpg"
+              alt=""
+            />
+          </div>
+
+          <section class="card-footer">
+            <h3 class="card-title">Xiaomi POCO X5 Pro 8GB 256GB</h3>
+            <p class="card-newPrice">25.000.000 đ</p>
+            <p class="card-oldPrice">20.200.000 đ</p>
+            <button class="card-infor">256GB</button>
+            <div class="card-desc">
+              <p>
+                Giá chỉ còn 13.500.000đ khi trả góp qua samsung Finance+(40 suất
+                đầu tiên) quyền mua của
+              </p>
+            </div>
+            <button class="card-cartBtn">ADD CART</button>
+          </section>
+        </div>
+      </div>
+
+      <!-- SIGNIN FORM -->
+      <div id="sign-in">
+        <div class="login-wrapper">
+          <div class="login-close">
+            <i id="icon-login_close" class="fa-solid fa-x"></i>
+          </div>
+          <div class="login-title">SIGN IN</div>
+          <!-- <div class="login-logo">
+            <img
+              src="https://cdn.dribbble.com/users/39185/screenshots/2568117/media/ae273e884398af9b727beecfa66d89fa.jpg?resize=768x576&vertical=center"
+              alt=""
+            />
+          </div> -->
+          <form action="" class="form-login">
+            <input
+              type="text"
+              name="username"
+              class="username"
+              placeholder="Username"
+            />
+            <input
+              type="password"
+              name="password"
+              class="password"
+              placeholder="password"
+            />
+            <label class="vaildate-form">
+              Tài khoản hoặc mật khẩu không đúng.Vui lòng nhập lại
+            </label>
+            <button type="submit" class="btn-login">LOGIN</button>
+          </form>
+          <div class="line"><span class="line-or">OR</span></div>
+          <div class="login-social">
+            <div class="facebook"><i class="fa-brands fa-facebook"></i></div>
+            <div class="google"><i class="fa-brands fa-google"></i></div>
+          </div>
+          <div class="symbol-signin">
+            <div class="logo-forgot-password">
+              <a id="forgot-password-link" href="#">Forget Password</a>
+            </div>
+            <div class="logo-sign-up">
+              <a id="sign-up-link" href="#">Sign up</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- SIGN UP FORM -->
+      <div id="sign-up">
+        <div class="signup-wrapper">
+          <div class="signup-close">
+            <i id="icon-signup_close" class="fa-solid fa-x"></i>
+          </div>
+          <div class="signup-title">SIGN UP</div>
+          <div class="signup-logo">
+            <!-- <img
+              src="https://cdn.dribbble.com/users/39185/screenshots/2568117/media/ae273e884398af9b727beecfa66d89fa.jpg?resize=768x576&vertical=center"
+              alt=""
+            /> -->
+          </div>
+          <form action="" class="form-signup">
+            <input
+              type="text"
+              name="username"
+              id="sign-up-username"
+              placeholder="Enter your username"
+              autocomplete="sign-up-username"
+            />
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Enter your Email"
+              autocomplete="email"
+            />
+            <input
+              type="password"
+              name="password"
+              id="sign-up-password"
+              placeholder="password"
+              autocomplete="password"
+            />
+            <input
+              type="password"
+              name="confirm-password"
+              id="confirm-password"
+              placeholder="Confirm Password"
+              autocomplete="confirm-password"
+            />
+            <button type="submit" class="btn-login">Sign Up</button>
+          </form>
+          <div class="line"><span class="line-or">OR</span></div>
+          <div class="symbol">
+            <div class="logo-sign-up">
+              <span class="logo-sign-up-title"
+                >Already have an account?
+                <a id="sign-in-link" href="#">Sign in</a></span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="noti">
+        <div class="noti-login">
+          <div class="noti-login_success">
+            <div class="noti-icon">
+              <i class="fa-solid fa-check"></i>
+            </div>
+            <div class="noti-content">
+              <h6 class="noti-content_title">Success</h6>
+              <p class="noti-content_desc">
+                Your changes are saved successfully
+              </p>
+            </div>
+          </div>
+          <div class="noti-login_error show-noti">
+            <div class="noti-icon">
+              <i class="fa-solid fa-xmark"></i>
+            </div>
+            <div class="noti-content">
+              <h6 class="noti-content_title">Wrong</h6>
+              <p class="noti-content_desc">Please try again</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- NOTIFICATION LOGIN -->
+
+    <script src="tech.js"></script>
+  </body>
+</html>

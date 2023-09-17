@@ -1,0 +1,18 @@
+{
+  "users": [
+    {
+      "username": "admin",
+      "password": "123",
+      "email": "huynhkhanhhoa3006@gmail.com",
+      "confirmPassword": "123",
+      "id": 1
+    },
+    {
+      "username": "0584386177",
+      "email": "huynhkhanhhoa2010@gmail.com",
+      "password": "4017076Az",
+      "confirm": "4017076Az",
+      "id": 2
+    }
+  ]
+}

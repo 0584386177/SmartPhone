@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="cart.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css "
+    />
+    <title>CART PAGE</title>
+  </head>
+  <body onload="">
+    <div class="container">
+      <div class="header-placehoder">
+        <header>
+          <!-- LOGO -->
+          <div class="logo">
+            <span class="slogan">H<strong id="tech">tech</strong></span>
+          </div>
+
+          <!-- Search -->
+          <form class="form-search" action="">
+            <input class="search" type="text" placeholder="Search..." />
+            <input class="submit" type="submit" value="Search" />
+          </form>
+
+          <div class="header-feature">
+            <!-- Cart -->
+            <div class="cart">
+              <i class="fa-solid fa-cart-shopping"></i>
+              <div class="number-cart">0</div>
+            </div>
+            <!-- Login -->
+            <div class="account">
+              <i class="fa-solid fa-user"></i>
+              <i class="fa-solid fa-right-from-bracket hidden-account"></i>
+            </div>
+          </div>
+        </header>
+      </div>
+      <!-- Cart -->
+      <div class="cart-left">
+        <table class="table">
+          <thead>
+            <tr class="cart-title">
+              <th style="width: 100px">Image</th>
+              <th style="width: 200px">Product</th>
+              <th style="width: 150px">Price</th>
+              <th style="width: 150px">Quantity</th>
+              <th style="width: 150px">Total</th>
+            </tr>
+          </thead>
+          <tbody class="tbody">
+          
+          </tbody>
+        </table>
+      </div>
+
+      <div class="total">
+        <h1 class="total-title">TOTAL</h1>
+        <p class="total-product">
+          Bạn đang có <span>2</span> sản phẩm trong giỏ hàng
+        </p>
+        <div class="total-price">Thành tiền : <span>11.000.000</span></div>
+        <div class="total-checkout"><button>CHECK OUT</button></div>
+      </div>
+    </div>
+    <script src="cart.js"></script>
+  </body>
+</html>
